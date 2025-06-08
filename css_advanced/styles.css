@@ -1,0 +1,292 @@
+/* Base styles */
+body {
+  margin: 0;
+  font-family: "Source Sans Pro";
+  color: white;
+}
+
+/* HERO SECTION */
+.hero-section {
+  background: url("./assets/images/Object.png") no-repeat center/cover;
+  padding: 2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.hero-content {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+.hero-tags {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.register-btn {
+  background-color: #c271ff;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.pros-section {
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.highlight {
+  color: #c271ff;
+}
+
+.instructors {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.instructor img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.instructor h3 {
+  margin: 0.5rem 0;
+}
+
+.instructor p {
+  font-size: 0.85rem;
+}
+
+/* TESTIMONIAL */
+.testimonial {
+  background-color: #c271ff;
+  padding: 3rem 2rem;
+  color: white;
+  text-align: center;
+}
+
+.testimonial-content {
+  /* max-width: 700px; */
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.testimonial-content img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+blockquote {
+  text-align: left;
+  max-width: 700px;
+}
+
+blockquote > p {
+  margin-bottom: 30px;
+}
+
+/* TUTORIALS */
+.tutorials {
+  background: white;
+  color: black;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.tutorials h2 {
+  margin-bottom: 3rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 220px;
+  text-align: left;
+}
+
+.thumb {
+  position: relative;
+}
+
+.thumb img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.play-icon {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  color: white;
+  font-size: 2rem;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.author img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.stars i {
+  color: #c271ff;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* MEMBERSHIP */
+.membership {
+  background-color: #071629;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.feature {
+  max-width: 200px;
+  color: white;
+}
+
+.feature i {
+  color: #c271ff;
+}
+
+button.register-btn {
+  margin-top: 1rem;
+}
+/* FAQ Section */
+.faq {
+  background-color: #f9f9f9;
+  color: #071629;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.faq h2 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 3rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.faq-item h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.faq-item p {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+/* Footer */
+.footer {
+  background-color: #071629;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer-left img {
+  height: 24px;
+}
+
+.footer-right a {
+  color: white;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+.footer-right a:hover {
+  color: #c271ff;
+}
+
+.footer .copyright {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  color: #ccc;
+}
